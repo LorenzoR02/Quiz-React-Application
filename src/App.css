@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.startMenu select {
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.startMenu p, .startMenu h1 {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.startMenu select {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.quizButton {
+    color: white;
+    border: 1px solid #29467c;
+    background-color: #29467c;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    scale: 1;
+    transition: scale 100ms ease;
+}
+
+.quizButton:hover {
+    cursor: pointer;
+    scale: 1.02;
+    transition: scale 100ms ease;
+}
+
+.quizContainer {
+    padding: 80px;
+    color: #29467c;
+}
+
+.questions {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c0d1f0b9;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    min-width: 60px;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    border: 1px solid #b1c1df;
+    background-color: white;
+    transition: background-color 100ms ease;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #ccdaf5;
+    transition: background-color 100ms ease;
+}
+
+.button-clicked {
+    background-color: #ccdaf5;
+    transition: background-color 100ms ease;
+}
+
+.button-checked {
+    background-color: #a8d8a2c9;
+    transition: background-color 100ms ease;
+}
+
+.button-checked:hover {
+    background-color: #a8d8a2c9;
+    transition: background-color 100ms ease;
+}
+
+.scoreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bottomContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
